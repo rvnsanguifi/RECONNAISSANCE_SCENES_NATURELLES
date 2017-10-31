@@ -1,0 +1,10 @@
+Projet dans le cadre du cours de Reconnaissance des formes... code en python. Pour notre travail, nous avons utilisé le descripteur Daisy et le descripteur HOG pour l’extraction des caractéristiques. Après, nous allons appliquer un K-means pour le clustering en local. Et au final, on appliquera le classifieur SVM pour la classification. Sans oublier, la matrice de confusion, la précision et le rappel.
+
+Nous utilisons la base de données « 13 Natural Scene Categories » pour la mise en
+œuvre de notre système. Cette base contient 13 types de scènes naturelles
+représentées par des images en niveau de gris. Pour notre expérimentation contient
+les 100 premières images de chaque classe servent à l’entraînement et le reste pour
+le test.
+
+Lien pour la base de données utilisé : http://vision.stanford.edu/resources_links.html
+
